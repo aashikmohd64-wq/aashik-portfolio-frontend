@@ -122,7 +122,7 @@ const Index = () => {
       {/* Stats Section */}
       <div className="grid md:grid-cols-3 gap-8 px-[6%] py-16 max-w-[1400px] mx-auto">
         {[
-          { number: "6+", label: "Technologies" },
+          { number: "3+", label: "Technologies" },
           { number: "5+", label: "Projects Completed" },
           { number: "4 months", label: "Experience" },
         ].map((stat, i) => (
