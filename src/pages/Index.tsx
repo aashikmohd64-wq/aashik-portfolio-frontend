@@ -168,8 +168,50 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Experience Section */}
+      <section className="px-[6%] py-24">
+        <div className="text-center mb-16">
+          <div className="text-primary text-sm font-semibold tracking-widest uppercase mb-4">Experience</div>
+          <h2 className="text-5xl font-extrabold mb-4">Professional Journey</h2>
+          <p className="text-muted-foreground text-lg max-w-[600px] mx-auto">
+            Building real-world applications and gaining valuable industry experience
+          </p>
+        </div>
+
+        <div className="max-w-[900px] mx-auto">
+          <div className="bg-white/[0.03] border border-white/10 rounded-2xl p-10 transition-all hover:bg-primary/5 hover:border-primary relative overflow-hidden group">
+            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-secondary" />
+            
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
+              <div>
+                <h3 className="text-2xl font-bold mb-2">Frontend Developer</h3>
+                <div className="text-primary text-lg font-semibold">Makinus Technology</div>
+              </div>
+              <div className="text-muted-foreground text-sm mt-2 md:mt-0">
+                <span className="px-4 py-2 bg-primary/10 border border-primary/30 rounded-full">4 Months</span>
+              </div>
+            </div>
+
+            <p className="text-muted-foreground leading-relaxed">
+              Contributed to frontend development projects, working with modern web technologies to create responsive and user-friendly interfaces. Collaborated with the development team to implement features, optimize performance, and deliver high-quality web applications.
+            </p>
+
+            <div className="flex flex-wrap gap-3 mt-6">
+              {["React", "JavaScript", "CSS", "Responsive Design"].map((tech, i) => (
+                <span
+                  key={i}
+                  className="px-4 py-2 bg-primary/10 border border-primary/30 rounded-full text-xs text-primary font-medium"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Projects Section */}
-      <section id="projects" className="px-[6%] py-24">
+      <section id="projects" className="px-[6%] py-24 bg-card">
         <div className="text-center mb-16">
           <div className="text-primary text-sm font-semibold tracking-widest uppercase mb-4">Portfolio</div>
           <h2 className="text-5xl font-extrabold mb-4">Featured Work</h2>
