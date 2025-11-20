@@ -254,12 +254,12 @@ const Index = () => {
               <div className="p-8 bg-white/[0.03] rounded-2xl border border-white/10 transition-all hover:bg-primary/5 hover:border-primary">
                 <div className="text-4xl mb-4">📧</div>
                 <div className="text-muted-foreground text-xs mb-2">Email</div>
-                <div className="text-lg font-semibold">aashik.dev@gmail.com</div>
+                <div className="text-lg font-semibold">aashikmohd64@gmail.com</div>
               </div>
               <div className="p-8 bg-white/[0.03] rounded-2xl border border-white/10 transition-all hover:bg-primary/5 hover:border-primary">
                 <div className="text-4xl mb-4">📱</div>
                 <div className="text-muted-foreground text-xs mb-2">Phone</div>
-                <div className="text-lg font-semibold">+91 98765 43210</div>
+                <div className="text-lg font-semibold">+91 7845157052</div>
               </div>
             </div>
 
